@@ -1,0 +1,1 @@
+const rimasAmor = ['Te miento si digo que no eres todo lo que pienso', 'se que esto comenzo en tan solo un momento']
