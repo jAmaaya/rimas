@@ -8,3 +8,9 @@ principalmente a los compositores o artistas que buscan un poco de inspiración.
 * Escoges dentro de una serie de tematicas como rimas tristes, rimas de amor y de desamor
 * Es basado en un contexto realista y con sentido 
 * La mejor herramienta para buscar inspiración
+
+## Tecnologias usadas 
+
+### javascript
+ 
+> fue usada como principal
