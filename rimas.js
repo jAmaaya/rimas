@@ -10,4 +10,22 @@ const rimasDes = ['Yo se, que no fui el mejor, a pesar que me traicionaste el co
 
 const rimasTris = ['no te puedo olvidar, eras todo lo que buscaba']
 
+// aqui comienzan las funciones
 
+let rimas = (rim) => {
+    return rim[Math.floor(Math.random() * rim.length)]
+}
+
+const rimaDefi = (rima) => {
+    if (rima === rimasAmor) {
+        return `Escogiste rimas de amor ... blif ... bluff : ${rimas(rima)}`
+    } else if (rima === rimasDes) {
+        return `Escogiste rimas de desamor ... blam ... boom : ${rimas(rima)}`
+    } else if (rima === rimasTris) {
+        return `Escogiste rimas tristes ;-( ... ummm ... tin : ${rimas(rima)}`
+    } else {
+        return 'Tipo de rima invalido mi pana'
+    }
+}
+
+console.log(rimaDefi(rimasTris))
